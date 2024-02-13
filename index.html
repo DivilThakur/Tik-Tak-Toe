@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Tic Tac Toe</title>
+  <link rel="stylesheet" crossorigin href="/style.css">
+</head>
+<body class="  bg-[#101820]">
+
+    <main class=" flex justify-center flex-col items-center space-y-10">
+
+        <div class="heading flex flex-col  items-center space-y-4 mt-10">
+            <div  class="text-2xl text-[#FFF2D7] " >
+             <span id="win" class="" hidden> Congratulations Winner Is :  </span>  </div>
+            <div id="Turn" class="text-2xl text-[#FFF2D7]" > Turn For :  X </div>
+        </div>
+
+        <div class=" grid grid-cols-3 gap-x-3 gap-y-1  w-96">
+            
+            <button class="button w-32 h-32 rounded-md bg-[#F98866] text-5xl font-semibold text-[#FFF2D7]" ></button>
+            <button class="button w-32 h-32 rounded-md bg-[#F98866] text-5xl font-semibold text-[#FFF2D7]" ></button>
+            <button class="button w-32 h-32 rounded-md bg-[#F98866] text-5xl font-semibold text-[#FFF2D7]" ></button>
+            <button class="button w-32 h-32 rounded-md bg-[#F98866] text-5xl font-semibold text-[#FFF2D7]" ></button>
+            <button class="button w-32 h-32 rounded-md bg-[#F98866] text-5xl font-semibold text-[#FFF2D7]" ></button>
+            <button class="button w-32 h-32 rounded-md bg-[#F98866] text-5xl font-semibold text-[#FFF2D7]" ></button>
+            <button class="button w-32 h-32 rounded-md bg-[#F98866] text-5xl font-semibold text-[#FFF2D7]" ></button>
+            <button class="button w-32 h-32 rounded-md bg-[#F98866] text-5xl font-semibold text-[#FFF2D7]" ></button>
+            <button class="button w-32 h-32 rounded-md bg-[#F98866] text-5xl font-semibold text-[#FFF2D7]" ></button>
+
+        </div>
+
+        <div class="">
+            <button id="newgame" class=" p-4 rounded-md bg-[#20948B] text-xl font-semibold text-[#FFF2D7] mx-auto transiton ease-in-out delay-100
+            duration-100 hover:-translate-y-2 hover:bg-[#459f98] hover:text-[#ded9d0] hover:shadow-md  hover:shadow-[#20948B]" >New Game</button>
+           
+           
+        </div>
+
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
