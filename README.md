@@ -1,6 +1,6 @@
 # ❌⭕ Tic Tac Toe Game
 
-A classic **Tic Tac Toe** game built using **HTML**, **CSS**, and **JavaScript**, now enhanced with **sound effects** for a more interactive and fun experience. Play with a friend, enjoy responsive design, and hear satisfying feedback on each move.
+A classic **Tic Tac Toe** game built using **HTML**, **CSS**, and **JavaScript**, now enhanced with **sound effects** for a more interactive and fun experience. Play with a friend and hear satisfying feedback on each move.
 
 ## 🎮 Live Demo
 
@@ -14,7 +14,7 @@ A classic **Tic Tac Toe** game built using **HTML**, **CSS**, and **JavaScript**
 - ✅ Win detection
 - 🎵 Sound effects for clicks ans wins
 - ♻️ Restart button to play again
-- 📱 Responsive layout – mobile-friendly
+
 
 ## 🛠️ Tech Stack
 
